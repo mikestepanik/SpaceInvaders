@@ -1,0 +1,11 @@
+.\menu.o: Menu.c
+.\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\menu.o: Sprite.h
+.\menu.o: display_consts.h
+.\menu.o: Menu.h
+.\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\menu.o: ST7735.h
+.\menu.o: display_funcs.h
+.\menu.o: game_consts.h

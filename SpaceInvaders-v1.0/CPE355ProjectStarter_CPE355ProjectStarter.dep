@@ -1,0 +1,65 @@
+Dependencies for Project 'CPE355ProjectStarter', Target 'CPE355ProjectStarter': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x62522286)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x62522284)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x62675512)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (tm4c123gh6pm.h)(0x62522286)
+F (.\ST7735.c)(0x62522284)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025DA44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (ST7735.h)(0x62708AEA)
+I (tm4c123gh6pm.h)(0x62522286)
+F (.\Main_Game.c)(0x6273EB4C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\main_game.o --omf_browse .\main_game.crf --depend .\main_game.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025DA4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025DA44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (ST7735.h)(0x62708AEA)
+I (PLL.h)(0x62675512)
+I (tm4c123gh6pm.h)(0x62522286)
+I (random.h)(0x62522284)
+I (sprite.h)(0x62735138)
+I (ADCSWTrigger.h)(0x6264C36C)
+I (PeriodicSysTickInts.h)(0x626857D8)
+I (display_consts.h)(0x62715AA8)
+I (menu.h)(0x6273256C)
+I (hud.h)(0x62732D46)
+I (Display_Funcs.h)(0x62732DA0)
+I (game_vars.h)(0x6271614E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025DA44)
+I (game_consts.h)(0x62734904)
+F (.\random.h)(0x62522284)()
+F (.\random.s)(0x62522284)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\sprite.c)(0x62735234)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\sprite.o --omf_browse .\sprite.crf --depend .\sprite.d)
+I (sprite.h)(0x62735138)
+F (.\ADCSWTrigger.c)(0x626B91A6)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (tm4c123gh6pm.h)(0x62522286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+F (.\ADCSWTrigger.h)(0x6264C36C)()
+F (.\display_funcs.c)(0x62732D70)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\display_funcs.o --omf_browse .\display_funcs.crf --depend .\display_funcs.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025DA4E)
+I (display_funcs.h)(0x62732DA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (display_consts.h)(0x62715AA8)
+I (ST7735.h)(0x62708AEA)
+F (.\Menu.c)(0x62733E5C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\menu.o --omf_browse .\menu.crf --depend .\menu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025DA44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025DA4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6025DA44)
+I (Sprite.h)(0x62735138)
+I (display_consts.h)(0x62715AA8)
+I (Menu.h)(0x6273256C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (ST7735.h)(0x62708AEA)
+I (display_funcs.h)(0x62732DA0)
+I (game_consts.h)(0x62734904)
+F (.\game_consts.h)(0x62734904)()
+F (.\hud.C)(0x62734E36)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_CPE355ProjectStarter-IC:\Users\s224lab\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\s224lab\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\hud.o --omf_browse .\hud.crf --depend .\hud.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025DA4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025DA44)
+I (hud.h)(0x62732D46)
+I (ST7735.h)(0x62708AEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (display_funcs.h)(0x62732DA0)
+I (display_consts.h)(0x62715AA8)
+I (sprite.h)(0x62735138)
